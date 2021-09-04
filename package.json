@@ -28,6 +28,7 @@
     "depd": "^1.1.2",
     "destroy": "^1.0.4",
     "ee-first": "^1.1.1",
+    "ejs": "^3.1.6",
     "encodeurl": "^1.0.2",
     "engine.io": "^3.4.0",
     "engine.io-client": "^3.4.0",
