@@ -1,3 +1,6 @@
+
+/* Fix user-agent */
+
 * {
   box-sizing: border-box;
 }
@@ -17,6 +20,8 @@ ul {
   word-wrap: break-word;
 }
 
+/* Pages */
+
 .pages {
   height: 100%;
   margin: 0;
@@ -26,12 +31,14 @@ ul {
 
 .page {
   height: 100%;
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 
+/* Login Page */
+
 .login.page {
-  background-image: url('/bg.jpg');
+  background-color: black;
 }
 
 .login.page .form {
@@ -69,10 +76,14 @@ ul {
   font-weight: 100;
 }
 
+/* Chat page */
+
 .chat.page {
   display: none;
-  background: url(/bg.jpg);
+  background: black;
 }
+
+/* Font */
 
 .messages {
   font-size: 150%;
@@ -88,6 +99,8 @@ ul {
   margin: 5px;
   text-align: center;
 }
+
+/* Messages */
 
 .chatArea {
   height: 100%;
@@ -115,6 +128,8 @@ ul {
   padding-right: 15px;
   text-align: right;
 }
+
+/* Input */
 
 .inputMessage {
   border: 10px solid #000;
