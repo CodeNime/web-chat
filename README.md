@@ -1,5 +1,5 @@
 # web-chat
-website chat using ejs and socket.io
+website chat using expressjs and socket.io
 
 
 ## install
